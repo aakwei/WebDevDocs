@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script defer src="../Static/script.js" type="text/javascript"></script>
+    <script src="../Static/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="../Static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content = "Andrews Akwei">
+    <meta name="keywords" content="Carnegie Mellon, Information Systems">
+    <meta name="description" content = "Andrews' Professional Website">
+    <title>Andrews' Professional Website</title>
+</head>
+<body onload="addYear()">
+    <header>
+        <h1 id="webname"> Andrews Akwei </h1>
+        <nav id="myTopnav" class="topnav">
+            <a href="index.html" class="active">Home</a>
+            <a href="cv.html">CV</a>
+            <a href="contact.html">Contact Info</a>
+            <a href="fun.html"  class="active">Fun</a>
+            <a href="javascript:void(0);" class="icon">
+                <i class="fa fa-bars" onclick="activeNav()"></i>
+            </a>
+        </nav>
+    </header>
+    <div class = "mainFun">
+        <div id="item1">
+        <h2>My Favorite Activities:</h2>
+        <!-- <button id="SeeMoreBTN" onclick="showList()">Click to See...</button> -->
+        <ul id="FavList">
+            <li>Play Video-Games. Currently Playing:</li>
+            <ul>
+                <li>Yakuza 3</li>
+                <li>Fallout New Vegas</li>
+                <li>Persona 3 Reload</li>
+                <li>The Legend of Zelda: Tears of the Kingdom</li>
+            </ul>
+            <li>Watching TV Shows/Movies. Currently Watching:</li>
+            <ul>
+                <li>Jojo's Bizarre Adventure: Part 3- Stardust Crusaders</li>
+                <li>Californication</li>
+                <li>One Piece</li>
+                <li>Avatar: The Last Airbender</li>
+            </ul>
+            <li>Reading Books. Currently Reading:</li>
+            <ul>
+                <li>Kokoro - Soseki Natsume</li>
+                <li>The Fall of the House of Usher - Edgar Alan Poe</li>
+            </ul>
+        </ul>
+        </div>
+        <div id="item2">
+        <h2>Favorite Video:</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/VsMvSZeiKmw?si=SV2wbTiZRgmiv4Dc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div id="item3">
+        <h2>Favorite Pittsburgh Locations:</h2>
+        <!-- <button id="SeeMoreBTN2" onclick="showList2()">Click to See...</button> -->
+        <ul id="FavList2">
+            <li>Pamala's Family Dinner</li>
+            <li>Manor Theatre</li>
+            <li>Squirrel Hill</li>
+            <li>Point State Park</li>
+            <li>Milkshake Factory</li>
+            <li>Garbarino's</li>
+        </ul>
+            <h3>Map of My Favorite Places</h3>
+            <div id="map">
+            <script>(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
+            ({key: "AIzaSyDGjV0rgbsCcCneMKuUiErmyLxgaedNN0M", v: "weekly"});</script>
+            </div>
+        </div>
+        <div id="item4">
+            <img class= "funIMG" src="../Static/fmaInsignia.png " alt="Fullmetal Alchemist Insignia">
+        </div>
+    </div>
+    <footer>
+        <p id="copyYear">Andrews Akwei &copy;</p>
+    </footer>
+    
+</body>
+</html>
