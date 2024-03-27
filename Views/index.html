@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script defer src="../Static/script.js" type="text/javascript"></script>
+    <script src="../static/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="../Static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content = "Andrews Akwei">
+    <meta name="keywords" content="Carnegie Mellon, Information Systems">
+    <meta name="description" content = "Andrews' Professional Website">
+    <title>Andrews' Professional Website</title>
+</head>
+<body onload="addYear()">
+    <header>
+        <h1 id="webname"> ANDREWS AKWEI </h1>
+        <nav id="myTopnav" class="topnav">
+            <a href="index.html" class="active">Home</a>
+            <a href="cv.html">CV</a>
+            <a href="contact.html">Contact Info</a>
+            <a href="fun.html">Fun</a>
+            <a href="javascript:void(0);" class="icon">
+                <i class="fa fa-bars" onclick="activeNav()"></i>
+            </a>
+        </nav>
+    </header>
+    <div class = "main">
+        <h2 id="greeting"></h2>
+        <img class= "classA" src="../Static/picture.jpg " alt="Andrews Akwei's Photo" width="350px">
+        <div class="classA">
+        <!-- <p id="intro">I am 19 years old and I am a student at Carnegie Mellon University. I am a part of the
+            Information Systems major in Dietrich College. I hope to lean how to create data systems that
+            will be able to help other people. I aim to get a minor in Computer Science as well!
+        </p> -->
+        <span id="shortIntro">I am 19 years old and I am a student at Carnegie Mellon University. 
+                            I am a part of the Information Systems major in Dietrich College. 
+                            I hope to lean how to create data systems that will be able to help other people. 
+        </span>
+        <span id="readMore">Read More</span>
+        <span id="mediumIntro">My parents came to America from Ghana, but I was born in Saint Paul, Minnesota in 2004. 
+                            My parents, my older sister and I later moved to Newark, New Jersey in 2006, where my younger brother was born in 2007. 
+                            I attended North Star Academy since middle school, and graduated from North Star Lincoln Park High School in 2023
+        </span>
+        <span id="longIntro">So far, I am considering a concentration in Data Management because that seems profitable. 
+                            I also aim to get a minor in Computer Science, but we'll cross that bridge when we get there. 
+                            One of my dreams to to work on a video game as a passion project and/or job. 
+                            My biggest dream is to direct a game of my own. </span>
+        <span id="readLess">Show Less</span>
+
+        </div>
+    </div>
+    <footer>
+        <p id="copyYear">Andrews Akwei &copy;</p>
+    </footer>
+    
+</body>
+</html>
